@@ -1,0 +1,24 @@
+/* ComingSoon.css */
+.gradient-text {
+  background: linear-gradient(90deg, #FF0F7B 0%, #F89B29 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.neon-shape {
+  color: #FF0F7B;
+  filter: drop-shadow(0 0 8px rgba(255, 15, 123, 0.7));
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-Poppins {
+  font-family: 'Poppins', sans-serif;
+}
